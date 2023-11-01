@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+       .main-div{
+            width: 870px;
+            height: 120px;
+            display: flex;
+            justify-content: space-between;
+            background-color: rgba(212, 176, 176, 0.349);
+            border-radius: 10px;
+        }
+        .div-esquerda{
+            height: 120px;
+            width: 350px;
+            margin-left: 25px;
+        }
+        .data{
+            margin-left: 100px;
+            margin-bottom: 10px;
+        }
+        .div-direita{
+            height: 120px;
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .botoes{
+            margin-top: 35px;
+            
+        }
+        .apagar-botao{
+            margin-left: 50px;
+        }
+        .editar-botao{
+            margin-left: 50px;
+        }
+        .msg-esquerda{
+            border: 2px solid black;
+            width: 450px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-div">
+        <div class="div-esquerda">
+            <p><b>Por: Felipe</b></p>
+            <p><b>Titulo:</b> isso aqui é apenas um pequeno teste</p>
+            <p class ='msg-esquerda'><b>Mensagem:</b> iremos ter reuniao hoje pela tarde . . .</p>
+        </div>
+        <div class="div-direita">
+            <div class="botoes"><input class ='editar-botao' value ='Editar'type="button"><input class ='apagar-botao'value ='Apagar'type="button"></div>
+            <div class="data">26 de outubro de 2023 - 11:54</div>
+        </div>
+    </div>
+</body>
+</html>
