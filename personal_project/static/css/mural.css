@@ -198,6 +198,9 @@ body {
     text-align: center;
 
 }
+.link-novoaviso{
+    text-decoration: none;
+}
 
 @media screen and (max-width: 576px) {
 
